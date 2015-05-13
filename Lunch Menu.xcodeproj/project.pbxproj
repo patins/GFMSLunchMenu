@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43024BAF121C1B0E002B2D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43024BAE121C1B0E002B2D83 /* UIKit.framework */; };
+		43024BB1121C1B0E002B2D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43024BB0121C1B0E002B2D83 /* Foundation.framework */; };
+		43024BB3121C1B0E002B2D83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43024BB2121C1B0E002B2D83 /* CoreGraphics.framework */; };
+		43024BBA121C1B0E002B2D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43024BB9121C1B0E002B2D83 /* main.m */; };
+		43024BBD121C1B0E002B2D83 /* Lunch_MenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43024BBC121C1B0E002B2D83 /* Lunch_MenuAppDelegate.m */; };
+		43024BC0121C1B0E002B2D83 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43024BBE121C1B0E002B2D83 /* MainWindow.xib */; };
+		43024BC3121C1B0E002B2D83 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43024BC2121C1B0E002B2D83 /* RootViewController.m */; };
+		43024BC6121C1B0E002B2D83 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43024BC4121C1B0E002B2D83 /* RootViewController.xib */; };
+		4302776A1232E887006A6341 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277691232E887006A6341 /* Default.png */; };
+		430277AE1232EC5B006A6341 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277AB1232EC5B006A6341 /* Icon-72.png */; };
+		430277AF1232EC5B006A6341 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277AC1232EC5B006A6341 /* Icon.png */; };
+		430277B01232EC5B006A6341 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277AD1232EC5B006A6341 /* Icon@2x.png */; };
+		430277D11232EE72006A6341 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277CE1232EE72006A6341 /* Icon-Small-50.png */; };
+		430277D21232EE72006A6341 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277CF1232EE72006A6341 /* Icon-Small.png */; };
+		430277D31232EE72006A6341 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430277D01232EE72006A6341 /* Icon-Small@2x.png */; };
+		43038F5D1232864500870E67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43038F5C1232864500870E67 /* SystemConfiguration.framework */; };
+		43038F7E1232875500870E67 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 43038F7D1232875500870E67 /* Reachability.m */; };
+		430390621232B35E00870E67 /* Lunches.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430390611232B35E00870E67 /* Lunches.plist */; };
+		433FB7DA121C39D0000FDA86 /* Lunches.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB7D9121C39D0000FDA86 /* Lunches.m */; };
+		439EED871221472D00052499 /* LunchInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EED851221472D00052499 /* LunchInfoViewController.m */; };
+		439EED881221472D00052499 /* LunchInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439EED861221472D00052499 /* LunchInfoViewController.xib */; };
+		439EEE7E1221582200052499 /* Lunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 439EEE7D1221582200052499 /* Lunch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43024BAB121C1B0D002B2D83 /* Lunch Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lunch Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43024BAE121C1B0E002B2D83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43024BB0121C1B0E002B2D83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43024BB2121C1B0E002B2D83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43024BB4121C1B0E002B2D83 /* Lunch_Menu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lunch_Menu-Info.plist"; sourceTree = "<group>"; };
+		43024BB5121C1B0E002B2D83 /* Lunch_Menu_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lunch_Menu_Prefix.pch; sourceTree = "<group>"; };
+		43024BB9121C1B0E002B2D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43024BBB121C1B0E002B2D83 /* Lunch_MenuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lunch_MenuAppDelegate.h; sourceTree = "<group>"; };
+		43024BBC121C1B0E002B2D83 /* Lunch_MenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lunch_MenuAppDelegate.m; sourceTree = "<group>"; };
+		43024BBF121C1B0E002B2D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		43024BC1121C1B0E002B2D83 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		43024BC2121C1B0E002B2D83 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		43024BC5121C1B0E002B2D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		430277691232E887006A6341 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		430277AB1232EC5B006A6341 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		430277AC1232EC5B006A6341 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		430277AD1232EC5B006A6341 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		430277CE1232EE72006A6341 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		430277CF1232EE72006A6341 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		430277D01232EE72006A6341 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		430278071232F839006A6341 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		43038F5C1232864500870E67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		43038F7C1232874E00870E67 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		43038F7D1232875500870E67 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		430390611232B35E00870E67 /* Lunches.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lunches.plist; sourceTree = "<group>"; };
+		433FB7D8121C39D0000FDA86 /* Lunches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lunches.h; sourceTree = "<group>"; };
+		433FB7D9121C39D0000FDA86 /* Lunches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lunches.m; sourceTree = "<group>"; };
+		439EED841221472D00052499 /* LunchInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchInfoViewController.h; sourceTree = "<group>"; };
+		439EED851221472D00052499 /* LunchInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchInfoViewController.m; sourceTree = "<group>"; };
+		439EED861221472D00052499 /* LunchInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LunchInfoViewController.xib; sourceTree = "<group>"; };
+		439EEE7C1221582200052499 /* Lunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lunch.h; sourceTree = "<group>"; };
+		439EEE7D1221582200052499 /* Lunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lunch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43024BA8121C1B0D002B2D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43024BAF121C1B0E002B2D83 /* UIKit.framework in Frameworks */,
+				43024BB1121C1B0E002B2D83 /* Foundation.framework in Frameworks */,
+				43024BB3121C1B0E002B2D83 /* CoreGraphics.framework in Frameworks */,
+				43038F5D1232864500870E67 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43024B9C121C1B0D002B2D83 = {
+			isa = PBXGroup;
+			children = (
+				43024BA3121C1B0D002B2D83 /* Classes and Views */,
+				43024BA4121C1B0D002B2D83 /* Application Use */,
+				43024BA5121C1B0D002B2D83 /* Resources */,
+				43024BA6121C1B0D002B2D83 /* Frameworks */,
+				43024BAC121C1B0D002B2D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43024BA3121C1B0D002B2D83 /* Classes and Views */ = {
+			isa = PBXGroup;
+			children = (
+				43038F601232865100870E67 /* Reachability  */,
+				439EED8B1221477500052499 /* App Delegate */,
+				439EEE0C12214EDF00052499 /* Data */,
+				439EED94122147A600052499 /* LunchesInfoViewController */,
+				439EED8C1221479200052499 /* RootViewController */,
+			);
+			name = "Classes and Views";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		43024BA4121C1B0D002B2D83 /* Application Use */ = {
+			isa = PBXGroup;
+			children = (
+				43024BB5121C1B0E002B2D83 /* Lunch_Menu_Prefix.pch */,
+				43024BB9121C1B0E002B2D83 /* main.m */,
+				43024BB4121C1B0E002B2D83 /* Lunch_Menu-Info.plist */,
+			);
+			name = "Application Use";
+			sourceTree = "<group>";
+		};
+		43024BA5121C1B0D002B2D83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				430390611232B35E00870E67 /* Lunches.plist */,
+				439EED95122147F300052499 /* Images */,
+				430278071232F839006A6341 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		43024BA6121C1B0D002B2D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43024BAE121C1B0E002B2D83 /* UIKit.framework */,
+				43024BB0121C1B0E002B2D83 /* Foundation.framework */,
+				43024BB2121C1B0E002B2D83 /* CoreGraphics.framework */,
+				43038F5C1232864500870E67 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43024BAC121C1B0D002B2D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43024BAB121C1B0D002B2D83 /* Lunch Menu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43038F601232865100870E67 /* Reachability  */ = {
+			isa = PBXGroup;
+			children = (
+				43038F7C1232874E00870E67 /* Reachability.h */,
+				43038F7D1232875500870E67 /* Reachability.m */,
+			);
+			name = "Reachability ";
+			sourceTree = "<group>";
+		};
+		439EED8B1221477500052499 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				43024BBE121C1B0E002B2D83 /* MainWindow.xib */,
+				43024BBB121C1B0E002B2D83 /* Lunch_MenuAppDelegate.h */,
+				43024BBC121C1B0E002B2D83 /* Lunch_MenuAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		439EED8C1221479200052499 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				43024BC1121C1B0E002B2D83 /* RootViewController.h */,
+				43024BC2121C1B0E002B2D83 /* RootViewController.m */,
+				43024BC4121C1B0E002B2D83 /* RootViewController.xib */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		439EED94122147A600052499 /* LunchesInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				439EED841221472D00052499 /* LunchInfoViewController.h */,
+				439EED851221472D00052499 /* LunchInfoViewController.m */,
+				439EED861221472D00052499 /* LunchInfoViewController.xib */,
+			);
+			name = LunchesInfoViewController;
+			sourceTree = "<group>";
+		};
+		439EED95122147F300052499 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				430277CE1232EE72006A6341 /* Icon-Small-50.png */,
+				430277CF1232EE72006A6341 /* Icon-Small.png */,
+				430277D01232EE72006A6341 /* Icon-Small@2x.png */,
+				430277AB1232EC5B006A6341 /* Icon-72.png */,
+				430277AC1232EC5B006A6341 /* Icon.png */,
+				430277AD1232EC5B006A6341 /* Icon@2x.png */,
+				430277691232E887006A6341 /* Default.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		439EEE0C12214EDF00052499 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				433FB7D8121C39D0000FDA86 /* Lunches.h */,
+				433FB7D9121C39D0000FDA86 /* Lunches.m */,
+				439EEE7C1221582200052499 /* Lunch.h */,
+				439EEE7D1221582200052499 /* Lunch.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43024BAA121C1B0D002B2D83 /* Lunch Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43024BC9121C1B0E002B2D83 /* Build configuration list for PBXNativeTarget "Lunch Menu" */;
+			buildPhases = (
+				43024BA7121C1B0D002B2D83 /* Sources */,
+				43024BA8121C1B0D002B2D83 /* Frameworks */,
+				43024BA9121C1B0D002B2D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lunch Menu";
+			productName = "Lunch Menu";
+			productReference = 43024BAB121C1B0D002B2D83 /* Lunch Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43024B9E121C1B0D002B2D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Insinger Tech";
+			};
+			buildConfigurationList = 43024BA1121C1B0D002B2D83 /* Build configuration list for PBXProject "Lunch Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43024B9C121C1B0D002B2D83;
+			productRefGroup = 43024BAC121C1B0D002B2D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43024BAA121C1B0D002B2D83 /* Lunch Menu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43024BA9121C1B0D002B2D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43024BC0121C1B0E002B2D83 /* MainWindow.xib in Resources */,
+				43024BC6121C1B0E002B2D83 /* RootViewController.xib in Resources */,
+				439EED881221472D00052499 /* LunchInfoViewController.xib in Resources */,
+				430390621232B35E00870E67 /* Lunches.plist in Resources */,
+				4302776A1232E887006A6341 /* Default.png in Resources */,
+				430277AE1232EC5B006A6341 /* Icon-72.png in Resources */,
+				430277AF1232EC5B006A6341 /* Icon.png in Resources */,
+				430277B01232EC5B006A6341 /* Icon@2x.png in Resources */,
+				430277D11232EE72006A6341 /* Icon-Small-50.png in Resources */,
+				430277D21232EE72006A6341 /* Icon-Small.png in Resources */,
+				430277D31232EE72006A6341 /* Icon-Small@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43024BA7121C1B0D002B2D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43024BBA121C1B0E002B2D83 /* main.m in Sources */,
+				43024BBD121C1B0E002B2D83 /* Lunch_MenuAppDelegate.m in Sources */,
+				43024BC3121C1B0E002B2D83 /* RootViewController.m in Sources */,
+				433FB7DA121C39D0000FDA86 /* Lunches.m in Sources */,
+				439EED871221472D00052499 /* LunchInfoViewController.m in Sources */,
+				439EEE7E1221582200052499 /* Lunch.m in Sources */,
+				43038F7E1232875500870E67 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43024BBE121C1B0E002B2D83 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43024BBF121C1B0E002B2D83 /* en */,
+			);
+			name = MainWindow.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		43024BC4121C1B0E002B2D83 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43024BC5121C1B0E002B2D83 /* en */,
+			);
+			name = RootViewController.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43024BC7121C1B0E002B2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Debug;
+		};
+		43024BC8121C1B0E002B2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alison Insinger (BB52562FMZ)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		43024BCA121C1B0E002B2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lunch_Menu_Prefix.pch;
+				INFOPLIST_FILE = "Lunch_Menu-Info.plist";
+				PRODUCT_NAME = "Lunch Menu";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43024BCB121C1B0E002B2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alison Insinger (BB52562FMZ)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lunch_Menu_Prefix.pch;
+				INFOPLIST_FILE = "Lunch_Menu-Info.plist";
+				PRODUCT_NAME = "Lunch Menu";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		430277FD1232F699006A6341 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alison Insinger";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Distribution;
+		};
+		430277FE1232F699006A6341 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lunch_Menu_Prefix.pch;
+				INFOPLIST_FILE = "Lunch_Menu-Info.plist";
+				PRODUCT_NAME = "Lunch Menu";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43024BA1121C1B0D002B2D83 /* Build configuration list for PBXProject "Lunch Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43024BC7121C1B0E002B2D83 /* Debug */,
+				43024BC8121C1B0E002B2D83 /* Release */,
+				430277FD1232F699006A6341 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43024BC9121C1B0E002B2D83 /* Build configuration list for PBXNativeTarget "Lunch Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43024BCA121C1B0E002B2D83 /* Debug */,
+				43024BCB121C1B0E002B2D83 /* Release */,
+				430277FE1232F699006A6341 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43024B9E121C1B0D002B2D83 /* Project object */;
+}
